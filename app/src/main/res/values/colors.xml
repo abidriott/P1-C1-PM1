@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="RED">#FF000B</color>
+    <color name="Toyota">#DA3232</color>
+    <color name='Titulo'>#FF9800</color>
+    <color name='ST'>#938686</color>
+    <color name='main'>#B191EA</color>
+
+
+
+</resources>

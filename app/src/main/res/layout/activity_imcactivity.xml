@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IMCActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Indice de Masa Corporal"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/txtAltura"
+            android:inputType="numberDecimal"
+            android:hint="Escribe tu altura(m)"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:textStyle="normal">
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/txtPeso"
+            android:inputType="numberDecimal"
+            android:hint="Escribe tu peso(kg)"
+            android:layout_gravity="center"
+            android:textStyle="normal">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/lblResultado"
+            android:text=" Resultado de IMC: "
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textSize="15dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="35dp">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCalcular"
+                android:text="Calcular"
+                android:layout_marginEnd="8dp">
+            </Button>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLimpiar"
+                android:text="Limpiar"
+                android:layout_marginEnd="8dp">
+            </Button>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCerrar"
+                android:text="Cerrar">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
